@@ -6,5 +6,33 @@ body{
     text-align:center;
     font-family:'Courier New', Courier, monospace;
     background:darkred;
-    
+   
+}
+body{
+    border-style:dashed;
+    border-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: green;
+}
+h1{border-style:dotted;
+   border-width:5px;
+   border-left-width: 5px;
+   border-right-width: 5px;
+   border-color: #ffcccb;
+}
+h1{
+    font-size:1.5em;
+    background-color:darkolivegreen;
+    margin: 1px;
+    padding: 1px;
+}
+img{
+background-color: green;
+margin: 6px;
+padding: 6px;
+
+}
+ a:hover {
+    text-decoration-line: line-through wavy;
 }
